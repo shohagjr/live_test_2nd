@@ -9,12 +9,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BloodDonationPage(),
+      home: NeedBlood(),
     );
   }
 }
 
-class BloodDonationPage extends StatelessWidget {
+class NeedBlood extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
